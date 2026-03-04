@@ -1,0 +1,9 @@
+# Core (likely already in .venv): websockets, numpy, scipy, sounddevice, faster-whisper, etc.
+
+# In-app actions (type in Notepad, message WhatsApp/WeChat, VPN automation)
+pyautogui>=1.0.0
+pygetwindow>=0.0.9
+pyperclip>=1.8.0
+
+# Optional: system telemetry (HUD panel)
+psutil>=5.9.0

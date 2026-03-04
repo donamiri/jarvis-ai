@@ -1,0 +1,427 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1"
+  />
+  <title>JARVIS HUD</title>
+
+  <style>
+    :root{
+      --cyan: rgba(140,245,255,0.95);
+      --cyan2: rgba(40,220,255,0.55);
+      --panel: rgba(6,14,18,0.28);
+      --border: rgba(80,220,255,0.20);
+      --glow: rgba(40,200,255,0.20);
+    }
+
+    html, body {
+      margin: 0;
+      width: 100%;
+      height: 100%;
+      background: transparent;
+      overflow: hidden;
+      font-family: "Segoe UI", system-ui, Arial, sans-serif;
+      color: var(--cyan);
+      -webkit-user-select: none;
+      user-select: none;
+    }
+
+    /* Background: subtle grid + scanline */
+    body::before{
+      content:"";
+      position:absolute;
+      inset:0;
+      background:
+        radial-gradient(circle at 50% 45%, rgba(40,200,255,0.10), transparent 55%),
+        linear-gradient(rgba(40,200,255,0.04) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(40,200,255,0.03) 1px, transparent 1px);
+      background-size: auto, 38px 38px, 38px 38px;
+      opacity: 0.9;
+      pointer-events: none;
+    }
+
+    body::after{
+      content:"";
+      position:absolute;
+      inset:-2px;
+      background: linear-gradient(to bottom,
+        transparent 0%,
+        rgba(80,220,255,0.05) 50%,
+        transparent 100%);
+      animation: scan 5.5s linear infinite;
+      pointer-events: none;
+      mix-blend-mode: screen;
+    }
+
+    @keyframes scan{
+      0% { transform: translateY(-20%); opacity: 0.0; }
+      10% { opacity: 0.45; }
+      50% { opacity: 0.18; }
+      100% { transform: translateY(20%); opacity: 0.0; }
+    }
+
+    /* Layout */
+    .wrap{
+      position:absolute;
+      inset:0;
+      display:grid;
+      grid-template-columns: 360px 1fr 420px;
+      grid-template-rows: 120px 1fr 240px;
+      gap: 14px;
+      padding: 16px;
+      pointer-events: none; /* allow click-through by default */
+    }
+
+    .panel{
+      border: 1px solid var(--border);
+      background: var(--panel);
+      -webkit-backdrop-filter: blur(10px);
+      backdrop-filter: blur(10px);
+      border-radius: 16px;
+      box-shadow: 0 0 24px var(--glow);
+      padding: 12px 14px;
+    }
+
+    .glow{
+      text-shadow: 0 0 14px rgba(40,200,255,0.28);
+    }
+
+    /* Top-left status */
+    #statusPanel{
+      grid-column: 1 / 2;
+      grid-row: 1 / 2;
+    }
+    #stateLine{
+      font-size: 14px;
+      letter-spacing: 2px;
+      opacity: 0.9;
+    }
+    #subLine{
+      margin-top: 8px;
+      font-size: 12px;
+      letter-spacing: 1px;
+      opacity: 0.75;
+    }
+
+    /* Center reactor + waveform */
+    #corePanel{
+      grid-column: 2 / 3;
+      grid-row: 1 / 3;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      position: relative;
+      overflow:hidden;
+    }
+
+    .title{
+      position:absolute;
+      top: 14px;
+      left: 16px;
+      font-size: 12px;
+      letter-spacing: 3px;
+      opacity: 0.75;
+    }
+
+    /* “Arc reactor” ring placeholder */
+    .ring{
+      position:absolute;
+      inset: 0;
+      margin: auto;
+      width: 360px;
+      height: 360px;
+      border-radius: 50%;
+      border: 1px solid rgba(80,220,255,0.18);
+      box-shadow: 0 0 28px rgba(40,200,255,0.18);
+      filter: drop-shadow(0 0 18px rgba(40,200,255,0.20));
+      animation: spin 18s linear infinite;
+    }
+    .ring::before{
+      content:"";
+      position:absolute;
+      inset: 22px;
+      border-radius: 50%;
+      border: 1px dashed rgba(80,220,255,0.18);
+    }
+    .ring::after{
+      content:"";
+      position:absolute;
+      inset: 68px;
+      border-radius: 50%;
+      border: 1px solid rgba(80,220,255,0.10);
+      box-shadow: inset 0 0 22px rgba(40,200,255,0.12);
+    }
+    @keyframes spin{
+      from{ transform: rotate(0deg); }
+      to{ transform: rotate(360deg); }
+    }
+
+    /* Core state-based color modes */
+    #corePanel[data-mode="listening"] .ring{
+      box-shadow: 0 0 32px rgba(80,220,255,0.55);
+    }
+    #corePanel[data-mode="thinking"] .ring{
+      border-color: rgba(255,235,140,0.65);
+      box-shadow: 0 0 32px rgba(255,235,140,0.55);
+      animation: spin 10s linear infinite;
+    }
+    #corePanel[data-mode="executing"] .ring{
+      border-color: rgba(255,120,120,0.85);
+      box-shadow: 0 0 40px rgba(255,80,80,0.75);
+      filter: drop-shadow(0 0 26px rgba(255,60,60,0.65));
+    }
+    #corePanel[data-mode="speaking"] #viz{
+      box-shadow:
+        0 0 38px rgba(140,245,255,0.8),
+        inset 0 0 34px rgba(140,245,255,0.9);
+    }
+
+    /* Waveform canvas */
+    #viz{
+      position: absolute;
+      inset: 0;
+      margin: auto;
+      width: 360px;
+      height: 360px;
+      border-radius: 50%;
+      border: 1px solid rgba(80,220,255,0.22);
+      background:
+        radial-gradient(circle at 50% 45%, rgba(40,200,255,0.16), rgba(3, 10, 12, 0.78) 65%);
+      box-shadow:
+        0 0 26px rgba(40,200,255,0.32),
+        inset 0 0 22px rgba(40,200,255,0.35);
+      pointer-events: none;
+    }
+
+    /* Holographic system panel (top-right) */
+    #holoPanel{
+      grid-column: 3 / 4;
+      grid-row: 1 / 3;
+      position: relative;
+      overflow: hidden;
+    }
+    .holoTitle{
+      font-size: 12px;
+      letter-spacing: 3px;
+      opacity: 0.8;
+      margin-bottom: 10px;
+    }
+    .holoMetric{
+      display:flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 11px;
+      letter-spacing: 1px;
+      padding: 4px 0;
+      opacity: 0.8;
+      border-bottom: 1px solid rgba(80,220,255,0.10);
+    }
+    .holoMetric.last{
+      border-bottom: none;
+    }
+    .holoMetricLabel{
+      text-transform: uppercase;
+      color: rgba(160,245,255,0.85);
+    }
+    .holoMetricValue{
+      font-family: Consolas, monospace;
+      color: rgba(210,245,255,0.92);
+    }
+    #holoApps{
+      margin-top: 6px;
+      font-size: 10px;
+      line-height: 1.3;
+      opacity: 0.85;
+    }
+
+    /* Right-side command input panel */
+    #cmdPanel{
+      grid-column: 3 / 4;
+      grid-row: 3 / 4;
+      pointer-events: auto; /* clickable */
+    }
+    #cmdLabel{
+      font-size: 12px;
+      letter-spacing: 3px;
+      opacity: 0.75;
+      margin-bottom: 10px;
+    }
+    #cmd{
+      width: 100%;
+      padding: 12px 12px;
+      border-radius: 12px;
+      border: 1px solid rgba(80,220,255,0.24);
+      background: rgba(3, 10, 12, 0.75);
+      color: rgba(210,245,255,0.95);
+      outline: none;
+      font-size: 13px;
+      letter-spacing: 1px;
+      box-shadow: inset 0 0 18px rgba(40,200,255,0.08);
+    }
+
+    /* Bottom-left log panel */
+    #logPanel{
+      grid-column: 1 / 3;
+      grid-row: 3 / 4;
+      overflow:hidden;
+    }
+    #logText{
+      margin: 0;
+      white-space: pre-wrap;
+      font-family: Consolas, monospace;
+      font-size: 12px;
+      line-height: 1.25;
+      opacity: 0.92;
+    }
+
+    /* Status text in core panel */
+    #status{
+      position: absolute;
+      bottom: 16px;
+      left: 16px;
+      font-size: 12px;
+      opacity: 0.75;
+      letter-spacing: 1px;
+    }
+
+    /* Footer hint */
+    .hint{
+      position:absolute;
+      right: 18px;
+      top: 18px;
+      font-size: 11px;
+      letter-spacing: 1px;
+      opacity: 0.55;
+      pointer-events: none;
+    }
+
+    .logLabel{
+      font-size: 12px;
+      letter-spacing: 3px;
+      opacity: 0.75;
+      margin-bottom: 8px;
+    }
+
+    #voiceBtn{
+      margin-top: 10px;
+      width: 100%;
+      padding: 10px 12px;
+      border-radius: 12px;
+      border: 1px solid rgba(80,220,255,0.24);
+      background: rgba(3, 10, 12, 0.75);
+      color: rgba(210,245,255,0.95);
+      letter-spacing: 2px;
+      cursor: pointer;
+    }
+
+    /* Command overlay in core */
+    #cmdOverlay{
+      position:absolute;
+      inset:0;
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      justify-content:center;
+      pointer-events:none;
+      opacity:0;
+      transform: translateY(6px);
+      transition: opacity 0.25s ease-out, transform 0.25s ease-out;
+      mix-blend-mode: screen;
+    }
+    #cmdOverlay.visible{
+      opacity:1;
+      transform: translateY(0);
+    }
+    #cmdOverlayLabel{
+      font-size: 11px;
+      letter-spacing: 4px;
+      color: rgba(255,200,160,0.85);
+      margin-bottom: 6px;
+    }
+    #cmdOverlayText{
+      font-family: Consolas, monospace;
+      font-size: 13px;
+      letter-spacing: 2px;
+      padding: 6px 10px;
+      border-radius: 999px;
+      border: 1px solid rgba(255,220,180,0.55);
+      background: radial-gradient(circle at 50% 0%, rgba(255,200,160,0.32), rgba(10,4,0,0.9));
+      box-shadow: 0 0 22px rgba(255,160,90,0.75);
+      text-transform: uppercase;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="hint">MIC VISUALIZER • Electron HUD</div>
+
+  <div class="wrap">
+    <!-- STATUS -->
+    <div class="panel glow" id="statusPanel">
+      <div id="stateLine">STATUS: <b>BOOTING</b></div>
+      <div id="subLine">Requesting microphone permission…</div>
+    </div>
+
+    <!-- HOLOGRAPHIC SYSTEM PANEL -->
+    <div class="panel" id="holoPanel">
+      <div class="glow holoTitle">SYSTEM</div>
+      <div class="holoMetric">
+        <span class="holoMetricLabel">CPU</span>
+        <span class="holoMetricValue" id="cpuVal">--%</span>
+      </div>
+      <div class="holoMetric">
+        <span class="holoMetricLabel">TIME</span>
+        <span class="holoMetricValue" id="timeVal">--:--:--</span>
+      </div>
+      <div class="holoMetric">
+        <span class="holoMetricLabel">NETWORK</span>
+        <span class="holoMetricValue" id="netVal">UNKNOWN</span>
+      </div>
+      <div class="holoMetric last">
+        <span class="holoMetricLabel">MEM</span>
+        <span class="holoMetricValue" id="memVal">--%</span>
+      </div>
+      <div id="holoApps">Active apps: <span id="appsVal">—</span></div>
+    </div>
+
+    <!-- CORE / VISUALIZER -->
+    <div class="panel" id="corePanel">
+      <div class="title glow">JARVIS ONLINE</div>
+      <div class="ring" aria-hidden="true"></div>
+      <canvas id="viz" width="420" height="420"></canvas>
+      <!-- renderer.js will update this status text -->
+      <div id="cmdOverlay" aria-hidden="true">
+        <div id="cmdOverlayLabel">EXECUTING</div>
+        <div id="cmdOverlayText"></div>
+      </div>
+      <div id="status">
+        Initializing…
+      </div>
+    </div>
+
+    <!-- LOG -->
+    <div class="panel" id="logPanel">
+      <div class="glow logLabel">LOG</div>
+      <pre id="logText">JARVIS: HUD ready. Speak to see waveform.</pre>
+    </div>
+
+    <!-- COMMAND INPUT -->
+    <div class="panel" id="cmdPanel">
+      <div class="glow" id="cmdLabel">COMMAND</div>
+      <input id="cmd" placeholder="type a command here (later we’ll send to Python Jarvis) …" />
+      <button id="voiceBtn" type="button">
+  🎙️ VOICE COMMAND (uses Python STT)
+</button>
+      <div class="tip">
+        Tip: If mic is blocked, enable Microphone access for desktop apps in Windows Privacy.
+      </div>
+    </div>
+  </div>
+
+  <!-- mic visualizer logic -->
+  <script src="./renderer.js"></script>
+</body>
+</html>

@@ -1,0 +1,1007 @@
+[
+  {
+    "ts": 1771520664,
+    "user": "open chrome",
+    "assistant": "Opening Chrome."
+  },
+  {
+    "ts": 1771524225,
+    "user": "open google chrome",
+    "assistant": "Opening chrome."
+  },
+  {
+    "ts": 1771524260,
+    "user": "open spotify and play roll up by wiz khalifa",
+    "assistant": "Router error: Error code: 400 - {'error': {'message': \"Missing required parameter: 'tools[0].name'.\", 'type': 'invalid_request_error', 'param': 'tools[0].name', 'code': 'missing_required_parameter'}}"
+  },
+  {
+    "ts": 1771524287,
+    "user": "open spotify and play a song",
+    "assistant": "Router error: Error code: 400 - {'error': {'message': \"Missing required parameter: 'tools[0].name'.\", 'type': 'invalid_request_error', 'param': 'tools[0].name', 'code': 'missing_required_parameter'}}"
+  },
+  {
+    "ts": 1771524309,
+    "user": "open spotify",
+    "assistant": "Router error: Error code: 400 - {'error': {'message': \"Missing required parameter: 'tools[0].name'.\", 'type': 'invalid_request_error', 'param': 'tools[0].name', 'code': 'missing_required_parameter'}}"
+  },
+  {
+    "ts": 1771524625,
+    "user": "what time is it",
+    "assistant": "It is 02:10 AM."
+  },
+  {
+    "ts": 1771524766,
+    "user": "open whatsapp",
+    "assistant": "I don't know how to open whatsapp yet."
+  },
+  {
+    "ts": 1771524792,
+    "user": "open spotify",
+    "assistant": "Opening spotify."
+  },
+  {
+    "ts": 1771525278,
+    "user": "open whatsapp",
+    "assistant": "Opening whatsapp."
+  },
+  {
+    "ts": 1771525323,
+    "user": "close whatsapp",
+    "assistant": "My cloud brain is unavailable right now (API quota/billing). I can still run basic commands."
+  },
+  {
+    "ts": 1771525369,
+    "user": "what is the date today",
+    "assistant": "My cloud brain is unavailable right now (API quota/billing). I can still run basic commands."
+  },
+  {
+    "ts": 1771525387,
+    "user": "open spotify",
+    "assistant": "Opening spotify."
+  },
+  {
+    "ts": 1771597680,
+    "user": "open spotify",
+    "assistant": "Opening spotify."
+  },
+  {
+    "ts": 1771832520,
+    "user": "open whatsapp",
+    "assistant": "Opening whatsapp."
+  },
+  {
+    "ts": 1771841872,
+    "user": "Open Google Chrome.",
+    "assistant": "Opening chrome."
+  },
+  {
+    "ts": 1771841888,
+    "user": "Eh... Eh... No, not at all!",
+    "assistant": "Offline mode: I can do basic commands like open apps, time, notes, web search, timers."
+  },
+  {
+    "ts": 1771841902,
+    "user": "T-t-t-t-t-t-t! Ohhh!",
+    "assistant": "Offline mode: I can do basic commands like open apps, time, notes, web search, timers."
+  },
+  {
+    "ts": 1771841910,
+    "user": "Open Spotify",
+    "assistant": "Opening spotify."
+  },
+  {
+    "ts": 1771841928,
+    "user": "I'm tired.",
+    "assistant": "Offline mode: I can do basic commands like open apps, time, notes, web search, timers."
+  },
+  {
+    "ts": 1771841942,
+    "user": "plus diavis",
+    "assistant": "Offline mode: I can do basic commands like open apps, time, notes, web search, timers."
+  },
+  {
+    "ts": 1771841956,
+    "user": "Oh, goodbye, Javis.",
+    "assistant": "Offline mode: I can do basic commands like open apps, time, notes, web search, timers."
+  },
+  {
+    "ts": 1771841970,
+    "user": "and Jarvis.",
+    "assistant": "Offline mode: I can do basic commands like open apps, time, notes, web search, timers."
+  },
+  {
+    "ts": 1771842056,
+    "user": "open jarvis",
+    "assistant": "Offline mode: I can do basic commands like open apps, time, notes, web search, timers."
+  },
+  {
+    "ts": 1771842070,
+    "user": "Shut down, Javis.",
+    "assistant": "Offline mode: I can do basic commands like open apps, time, notes, web search, timers."
+  },
+  {
+    "ts": 1771842083,
+    "user": "Shut down, Jarvis. Exit.",
+    "assistant": "Offline mode: I can do basic commands like open apps, time, notes, web search, timers."
+  },
+  {
+    "ts": 1771842100,
+    "user": "Yeah",
+    "assistant": "Offline mode: I can do basic commands like open apps, time, notes, web search, timers."
+  },
+  {
+    "ts": 1771842115,
+    "user": "This is tentative.",
+    "assistant": "Offline mode: I can do basic commands like open apps, time, notes, web search, timers."
+  },
+  {
+    "ts": 1771843343,
+    "user": "Hey Javis",
+    "assistant": "Offline mode: I can do basic commands like open apps, time, notes, web search, timers."
+  },
+  {
+    "ts": 1771843351,
+    "user": "What's the time?",
+    "assistant": "It is 06:42 PM."
+  },
+  {
+    "ts": 1771843365,
+    "user": "Open 25",
+    "assistant": "Offline mode: I can do basic commands like open apps, time, notes, web search, timers."
+  },
+  {
+    "ts": 1771843373,
+    "user": "Open Google Chrome.",
+    "assistant": "Opening chrome."
+  },
+  {
+    "ts": 1771843386,
+    "user": "Open my",
+    "assistant": "Offline mode: I can do basic commands like open apps, time, notes, web search, timers."
+  },
+  {
+    "ts": 1771843400,
+    "user": "Open Microsoft Bing.",
+    "assistant": "Offline mode: I can do basic commands like open apps, time, notes, web search, timers."
+  },
+  {
+    "ts": 1771843414,
+    "user": "Shout down Jarvis",
+    "assistant": "Offline mode: I can do basic commands like open apps, time, notes, web search, timers."
+  },
+  {
+    "ts": 1771843428,
+    "user": "Stop",
+    "assistant": "Offline mode: I can do basic commands like open apps, time, notes, web search, timers."
+  },
+  {
+    "ts": 1771843442,
+    "user": "Stop, Javis!",
+    "assistant": "Offline mode: I can do basic commands like open apps, time, notes, web search, timers."
+  },
+  {
+    "ts": 1771843514,
+    "user": "Hey Javis",
+    "assistant": "Offline mode: I can do basic commands like open apps, time, notes, web search, timers."
+  },
+  {
+    "ts": 1771843540,
+    "user": "You musts",
+    "assistant": "Offline mode: I can do basic commands like open apps, time, notes, web search, timers."
+  },
+  {
+    "ts": 1771844877,
+    "user": "Hey Jarvis open Google Chrome.",
+    "assistant": "Opening chrome."
+  },
+  {
+    "ts": 1771844889,
+    "user": "Open Spotify",
+    "assistant": "Opening spotify."
+  },
+  {
+    "ts": 1771844916,
+    "user": "Open VLC SGP",
+    "assistant": "Offline mode: I can do basic commands like open apps, time, notes, web search, timers."
+  },
+  {
+    "ts": 1771844955,
+    "user": "Open Google Chrome",
+    "assistant": "Opening chrome."
+  },
+  {
+    "ts": 1771846122,
+    "user": "Open by jump.",
+    "assistant": "I couldn't find 'by jump.'. Say 'reindex apps' to refresh my app list."
+  },
+  {
+    "ts": 1771846139,
+    "user": "Rehearsing the exhaust",
+    "assistant": "Offline mode: I can do basic commands like open apps, time, notes, web search, timers."
+  },
+  {
+    "ts": 1771846153,
+    "user": "Reend XOPS",
+    "assistant": "Offline mode: I can do basic commands like open apps, time, notes, web search, timers."
+  },
+  {
+    "ts": 1771846172,
+    "user": "Reindex Apps",
+    "assistant": "Indexed 113 apps."
+  },
+  {
+    "ts": 1771846186,
+    "user": "Open by jam",
+    "assistant": "I couldn't find 'by jam'. Say 'reindex apps' to refresh my app list."
+  },
+  {
+    "ts": 1771846197,
+    "user": "Open files.",
+    "assistant": "I couldn't find 'files.'. Say 'reindex apps' to refresh my app list."
+  },
+  {
+    "ts": 1771846205,
+    "user": "Open file explorer",
+    "assistant": "Opening file explorer."
+  },
+  {
+    "ts": 1771846220,
+    "user": "Open Microsoft Edge",
+    "assistant": "Opening microsoft edge."
+  },
+  {
+    "ts": 1771846230,
+    "user": "Open GitHub.",
+    "assistant": "Opening git gui."
+  },
+  {
+    "ts": 1771846241,
+    "user": "Open GitHub",
+    "assistant": "Opening git gui."
+  },
+  {
+    "ts": 1771846259,
+    "user": "Open widget.",
+    "assistant": "I couldn't find 'widget.'. Say 'reindex apps' to refresh my app list."
+  },
+  {
+    "ts": 1771846265,
+    "user": "Open WeChat",
+    "assistant": "Opening wechat."
+  },
+  {
+    "ts": 1771846291,
+    "user": "Close files, a file explorer.",
+    "assistant": "Offline mode: I can do basic commands like open apps, time, notes, web search, timers."
+  },
+  {
+    "ts": 1771846309,
+    "user": "Close file explorer.",
+    "assistant": "Offline mode: I can do basic commands like open apps, time, notes, web search, timers."
+  },
+  {
+    "ts": 1771846383,
+    "user": "Goodbye Javis.",
+    "assistant": "Offline mode: I can do basic commands like open apps, time, notes, web search, timers."
+  },
+  {
+    "ts": 1771861242,
+    "user": "Open my crystal of the moon.",
+    "assistant": "I couldn't find 'my crystal of the moon.'. Say 'reindex apps' to refresh my app list."
+  },
+  {
+    "ts": 1771861256,
+    "user": "Re-index ups",
+    "assistant": "Offline mode: I can do basic commands like open apps, time, notes, web search, timers."
+  },
+  {
+    "ts": 1771861273,
+    "user": "Reindex Ups",
+    "assistant": "Offline mode: I can do basic commands like open apps, time, notes, web search, timers."
+  },
+  {
+    "ts": 1771861282,
+    "user": "refresh apps",
+    "assistant": "Indexed 113 apps."
+  },
+  {
+    "ts": 1771861301,
+    "user": "In 45.",
+    "assistant": "Offline mode: I can do basic commands like open apps, time, notes, web search, timers."
+  },
+  {
+    "ts": 1771861309,
+    "user": "Open Spotify",
+    "assistant": "Opening spotify."
+  },
+  {
+    "ts": 1771861321,
+    "user": "Open GitHub",
+    "assistant": "Opening git gui."
+  },
+  {
+    "ts": 1771861335,
+    "user": "Open githab.com",
+    "assistant": "Opening git cmd."
+  },
+  {
+    "ts": 1771861349,
+    "user": "Open Microsoft Edge",
+    "assistant": "Opening microsoft edge."
+  },
+  {
+    "ts": 1771861370,
+    "user": "Open X-Box",
+    "assistant": "I couldn't find 'x-box'. Say 'reindex apps' to refresh my app list."
+  },
+  {
+    "ts": 1771861396,
+    "user": "Open Microsoft Store.",
+    "assistant": "Opening microsoft edge."
+  },
+  {
+    "ts": 1771861406,
+    "user": "Open Microsoft Store",
+    "assistant": "Opening microsoft edge."
+  },
+  {
+    "ts": 1771861448,
+    "user": "Open GitHub.",
+    "assistant": "Opening git gui."
+  },
+  {
+    "ts": 1771866677,
+    "user": "Play Roll Up by Whisker Leafa.",
+    "assistant": "Playing Party Monster by The Weeknd."
+  },
+  {
+    "ts": 1771866710,
+    "user": "Play Rolab by Whiskalifa",
+    "assistant": "Playing Kesho by Bridget Blue."
+  },
+  {
+    "ts": 1771866730,
+    "user": "Lay Roll Up by Whisker Leafa",
+    "assistant": "Offline mode: try 'open <app>', 'play <song>', 'pause/resume/next', 'volume 30', 'search <query>', 'time', 'notes', or 'timer'."
+  },
+  {
+    "ts": 1771866744,
+    "user": "Play Roll Up by Whiscaliffa",
+    "assistant": "Playing Party Monster by The Weeknd."
+  },
+  {
+    "ts": 1771867118,
+    "user": "play roll up by wiz khalifa",
+    "assistant": "Playing Roll Up (Originally Performed by Wiz Khalifa) - Vocal Version by Singer's Edge Karaoke."
+  },
+  {
+    "ts": 1771867155,
+    "user": "Roll UP",
+    "assistant": "Offline mode: try 'open <app>', 'play <song>', 'pause/resume/next', 'volume 30', 'search <query>', 'time', 'notes', or 'timer'."
+  },
+  {
+    "ts": 1771867187,
+    "user": "Play Roll Up",
+    "assistant": "Playing Roll Up by Wiz Khalifa."
+  },
+  {
+    "ts": 1771867250,
+    "user": "Ei, Javis!",
+    "assistant": "Offline mode: try 'open <app>', 'play <song>', 'pause/resume/next', 'volume 30', 'search <query>', 'time', 'notes', or 'timer'."
+  },
+  {
+    "ts": 1771867266,
+    "user": "Hello Javi",
+    "assistant": "Offline mode: try 'open <app>', 'play <song>', 'pause/resume/next', 'volume 30', 'search <query>', 'time', 'notes', or 'timer'."
+  },
+  {
+    "ts": 1771867382,
+    "user": "Play roll up.",
+    "assistant": "Playing Roll Up by Wiz Khalifa."
+  },
+  {
+    "ts": 1771867395,
+    "user": "Play Angels by The Weeknd",
+    "assistant": "Playing Big Gangsta by Kevin Gates."
+  },
+  {
+    "ts": 1771867429,
+    "user": "Play the morning by the weekend.",
+    "assistant": "Playing The Weekend Starts Here by Blue Forest."
+  },
+  {
+    "ts": 1771867446,
+    "user": "Late the morning",
+    "assistant": "Offline mode: try 'open <app>', 'play <song>', 'pause/resume/next', 'volume 30', 'search <query>', 'time', 'notes', or 'timer'."
+  },
+  {
+    "ts": 1771867462,
+    "user": "play the morning",
+    "assistant": "Playing The Morning by The Weeknd."
+  },
+  {
+    "ts": 1771867637,
+    "user": "Open Visual Studio Code",
+    "assistant": "Opening visual studio code."
+  },
+  {
+    "ts": 1771867646,
+    "user": "Open VS Code",
+    "assistant": "Opening vs code."
+  },
+  {
+    "ts": 1771867802,
+    "user": "Restart Javis.",
+    "assistant": "Offline mode: try 'open <app>', 'play <song>', 'pause/resume/next', 'volume 30', 'search <query>', 'time', 'notes', or 'timer'."
+  },
+  {
+    "ts": 1771867818,
+    "user": "Rysat Javis.",
+    "assistant": "Offline mode: try 'open <app>', 'play <song>', 'pause/resume/next', 'volume 30', 'search <query>', 'time', 'notes', or 'timer'."
+  },
+  {
+    "ts": 1771868115,
+    "user": "Open file explorer",
+    "assistant": "Opening file explorer."
+  },
+  {
+    "ts": 1771868136,
+    "user": "Open Spotify and play with Rolab.",
+    "assistant": "I couldn't find 'spotify and play with rolab.'. Try 'reindex apps' or check the app name."
+  },
+  {
+    "ts": 1771868144,
+    "user": "Open Spotify",
+    "assistant": "Opening spotify."
+  },
+  {
+    "ts": 1771868159,
+    "user": "Play Roll Up",
+    "assistant": "Playing Roll Up by Wiz Khalifa."
+  },
+  {
+    "ts": 1771868416,
+    "user": "Clear white keys",
+    "assistant": "Offline mode: try 'open <app>', 'play <song>', 'pause/resume/next', 'volume 30', 'search <query>', 'time', 'notes', or 'timer'."
+  },
+  {
+    "ts": 1771868433,
+    "user": "Lay white keys",
+    "assistant": "Offline mode: try 'open <app>', 'play <song>', 'pause/resume/next', 'volume 30', 'search <query>', 'time', 'notes', or 'timer'."
+  },
+  {
+    "ts": 1771868446,
+    "user": "Play white keys",
+    "assistant": "Playing White Ferrari by Frank Ocean."
+  },
+  {
+    "ts": 1771868475,
+    "user": "play white keys by dominic",
+    "assistant": "Playing 4\u00d74\u00d7U by Lainey Wilson."
+  },
+  {
+    "ts": 1771868511,
+    "user": "Play White Keys By Dominic Fike",
+    "assistant": "Playing Tobey (feat. Big Sean and BabyTron) by Eminem."
+  },
+  {
+    "ts": 1771868534,
+    "user": "Play White keys",
+    "assistant": "Playing White Ferrari by Frank Ocean."
+  },
+  {
+    "ts": 1771868607,
+    "user": "and",
+    "assistant": "Offline mode: try 'open <app>', 'play <song>', 'pause/resume/next', 'volume 30', 'search <query>', 'time', 'notes', or 'timer'."
+  },
+  {
+    "ts": 1771868627,
+    "user": "Goodbye",
+    "assistant": "Offline mode: try 'open <app>', 'play <song>', 'pause/resume/next', 'volume 30', 'search <query>', 'time', 'notes', or 'timer'."
+  },
+  {
+    "ts": 1771869067,
+    "user": "Open Spotify",
+    "assistant": "Opening spotify."
+  },
+  {
+    "ts": 1771869172,
+    "user": "open spotify",
+    "assistant": "Opening spotify."
+  },
+  {
+    "ts": 1771949848,
+    "user": "open spotify and play roll up",
+    "assistant": "I couldn't find 'spotify and play roll up'. Try 'reindex apps' or check the app name."
+  },
+  {
+    "ts": 1771949862,
+    "user": "open spotify",
+    "assistant": "Opening spotify."
+  },
+  {
+    "ts": 1772030720,
+    "user": "open spotify",
+    "assistant": "Opening spotify."
+  },
+  {
+    "ts": 1772030777,
+    "user": "play molly ma bean",
+    "assistant": "Playing Molly My Bean by MA Beats."
+  },
+  {
+    "ts": 1772030852,
+    "user": "close",
+    "assistant": "Offline mode: try 'open <app>', 'play <song>', 'pause/resume/next', 'volume 30', 'search <query>', 'time', 'notes', or 'timer'."
+  },
+  {
+    "ts": 1772030872,
+    "user": "volume 50",
+    "assistant": "Volume set to 50%."
+  },
+  {
+    "ts": 1772032346,
+    "user": "\u010cav\u00ed\u0161",
+    "assistant": "Offline mode: try 'open <app>', 'play <song>', 'pause/resume/next', 'volume 30', 'search <query>', 'time', 'notes', or 'timer'."
+  },
+  {
+    "ts": 1772032396,
+    "user": "Ei, Javis!",
+    "assistant": "Offline mode: try 'open <app>', 'play <song>', 'pause/resume/next', 'volume 30', 'search <query>', 'time', 'notes', or 'timer'."
+  },
+  {
+    "ts": 1772032413,
+    "user": "Open Microsoft Edge",
+    "assistant": "Opening microsoft edge."
+  },
+  {
+    "ts": 1772032432,
+    "user": "Pop in Spotify",
+    "assistant": "Offline mode: try 'open <app>', 'play <song>', 'pause/resume/next', 'volume 30', 'search <query>', 'time', 'notes', or 'timer'."
+  },
+  {
+    "ts": 1772032531,
+    "user": "Play Molly, my bean",
+    "assistant": "Playing Molly My Bean by MA Beats."
+  },
+  {
+    "ts": 1772032547,
+    "user": "tell me the time",
+    "assistant": "It is 11:15 PM."
+  },
+  {
+    "ts": 1772032566,
+    "user": "set a timer for 2 minutes",
+    "assistant": "It is 11:16 PM."
+  },
+  {
+    "ts": 1772032711,
+    "user": "Reload Javis",
+    "assistant": "Offline mode: try 'open <app>', 'play <song>', 'pause/resume/next', 'volume 30', 'search <query>', 'time', 'notes', or 'timer'."
+  },
+  {
+    "ts": 1772032916,
+    "user": "Hej, Jarvis!",
+    "assistant": "Offline mode: try 'open <app>', 'play <song>', 'pause/resume/next', 'volume 30', 'search <query>', 'time', 'notes', or 'timer'."
+  },
+  {
+    "ts": 1772032956,
+    "user": "Search for me low on",
+    "assistant": "Searching the web for: me low on"
+  },
+  {
+    "ts": 1772032976,
+    "user": "Search if one",
+    "assistant": "Searching the web for: if one"
+  },
+  {
+    "ts": 1772042272,
+    "user": "Opens 45",
+    "assistant": "Offline mode: try 'open <app>', 'play <song>', 'pause/resume/next', 'volume 30', 'search <query>', 'time', 'notes', or 'timer'."
+  },
+  {
+    "ts": 1772042291,
+    "user": "Notes.",
+    "assistant": "Offline mode: try 'open <app>', 'play <song>', 'pause/resume/next', 'volume 30', 'search <query>', 'time', 'notes', or 'timer'."
+  },
+  {
+    "ts": 1772042303,
+    "user": "Open north part.",
+    "assistant": "I couldn't find 'north part.'. Try 'reindex apps' or check the app name."
+  },
+  {
+    "ts": 1772042322,
+    "user": "Reindex Ops",
+    "assistant": "Offline mode: try 'open <app>', 'play <song>', 'pause/resume/next', 'volume 30', 'search <query>', 'time', 'notes', or 'timer'."
+  },
+  {
+    "ts": 1772042379,
+    "user": "reindex apps",
+    "assistant": "Indexed 113 apps."
+  },
+  {
+    "ts": 1772042396,
+    "user": "restart",
+    "assistant": "Offline mode: try 'open <app>', 'play <song>', 'pause/resume/next', 'volume 30', 'search <query>', 'time', 'notes', or 'timer'."
+  },
+  {
+    "ts": 1772043193,
+    "user": "restarting jarvis",
+    "assistant": "Offline mode: try 'open <app>', 'play <song>', 'pause/resume/next', 'volume 30', 'search <query>', 'time', 'notes', or 'timer'."
+  },
+  {
+    "ts": 1772043219,
+    "user": "time",
+    "assistant": "It is 02:13 AM."
+  },
+  {
+    "ts": 1772043284,
+    "user": "pause",
+    "assistant": "Paused."
+  },
+  {
+    "ts": 1772043320,
+    "user": "show notes",
+    "assistant": "No notes yet."
+  },
+  {
+    "ts": 1772043349,
+    "user": "remember that tomorrow i should take out the trash",
+    "assistant": "Saved."
+  },
+  {
+    "ts": 1772043369,
+    "user": "show notes",
+    "assistant": "Here are your latest notes:\n- tomorrow i should take out the trash"
+  },
+  {
+    "ts": 1772043389,
+    "user": "timer",
+    "assistant": "It is 02:16 AM."
+  },
+  {
+    "ts": 1772043410,
+    "user": "set timer for 1 minute",
+    "assistant": "It is 02:16 AM."
+  },
+  {
+    "ts": 1772043434,
+    "user": "set timer for 60 seconds",
+    "assistant": "It is 02:17 AM."
+  },
+  {
+    "ts": 1772043463,
+    "user": "chat",
+    "assistant": "Offline mode: try 'open <app>', 'play <song>', 'pause/resume/next', 'volume 30', 'search <query>', 'time', 'notes', or 'timer'."
+  },
+  {
+    "ts": 1772043538,
+    "user": "pause",
+    "assistant": "Paused."
+  },
+  {
+    "ts": 1772294677,
+    "user": "open chrome",
+    "assistant": "Opening chrome."
+  },
+  {
+    "ts": 1772294735,
+    "user": "open chrome",
+    "assistant": "Opening chrome."
+  },
+  {
+    "ts": 1772295059,
+    "user": "search max varstapen",
+    "assistant": "Searching the web for: max varstapen"
+  },
+  {
+    "ts": 1772295101,
+    "user": "open proton vpn and connect to uk",
+    "assistant": "I couldn't find 'proton vpn and connect to uk'. Try 'reindex apps' or check the app name."
+  },
+  {
+    "ts": 1772295111,
+    "user": "open proton vpn",
+    "assistant": "Opening proton vpn."
+  },
+  {
+    "ts": 1772295164,
+    "user": "play roll up",
+    "assistant": "Open Spotify on your PC/phone and start playing something once, then try again."
+  },
+  {
+    "ts": 1772295174,
+    "user": "open spotify",
+    "assistant": "Opening spotify."
+  },
+  {
+    "ts": 1772295199,
+    "user": "play roll up",
+    "assistant": "Open Spotify on your PC/phone and start playing something once, then try again."
+  },
+  {
+    "ts": 1772295229,
+    "user": "play roll up",
+    "assistant": "Playing Roll Up by Wiz Khalifa."
+  },
+  {
+    "ts": 1772297099,
+    "user": "Play Roll Up.",
+    "assistant": "Playing Roll Up by Wiz Khalifa."
+  },
+  {
+    "ts": 1772297125,
+    "user": "Yeah, man You don't have to keep your mind up. You break it up. I just don't know, I don't know.",
+    "assistant": "Offline mode: try 'open <app>', 'play <song>', 'pause/resume/next', 'volume 30', 'search <query>', 'time', 'notes', or 'timer'."
+  },
+  {
+    "ts": 1772297373,
+    "user": "Play Rolling Peppas 2.",
+    "assistant": "Playing Primetime by JA\u0178-Z."
+  },
+  {
+    "ts": 1772297603,
+    "user": "Thank you for the answers. Watch Louis Hamilton.",
+    "assistant": "Offline mode: try 'open <app>', 'play <song>', 'pause/resume/next', 'volume 30', 'search <query>', 'time', 'notes', or 'timer'."
+  },
+  {
+    "ts": 1772297627,
+    "user": "search the greatest formula 1 driver of all time",
+    "assistant": "It is 12:53 AM."
+  },
+  {
+    "ts": 1772297652,
+    "user": "search the greatest f1 driver of all time",
+    "assistant": "It is 12:54 AM."
+  },
+  {
+    "ts": 1772297667,
+    "user": "search lewis hamilton",
+    "assistant": "Searching the web for: lewis hamilton"
+  },
+  {
+    "ts": 1772297696,
+    "user": "search who is the greatest f1 driver of all time",
+    "assistant": "It is 12:54 AM."
+  },
+  {
+    "ts": 1772297760,
+    "user": "search the greatest f1 driver",
+    "assistant": "Searching the web for: the greatest f1 driver"
+  },
+  {
+    "ts": 1772299351,
+    "user": "Open Spotify",
+    "assistant": "Opening spotify."
+  },
+  {
+    "ts": 1772299368,
+    "user": "Open Proton VPN.",
+    "assistant": "Opening proton vpn."
+  },
+  {
+    "ts": 1772299407,
+    "user": "play white keys",
+    "assistant": "Playing Raindance (feat. Tems) by Dave."
+  },
+  {
+    "ts": 1772301988,
+    "user": "For me short",
+    "assistant": "Offline mode: try 'open <app>', 'play <song>', 'pause/resume/next', 'volume 30', 'search <query>', 'time', 'notes', or 'timer'."
+  },
+  {
+    "ts": 1772302016,
+    "user": "Such a Brian!",
+    "assistant": "Offline mode: try 'open <app>', 'play <song>', 'pause/resume/next', 'volume 30', 'search <query>', 'time', 'notes', or 'timer'."
+  },
+  {
+    "ts": 1772302041,
+    "user": "\u30b0\u30e9\u30de \u30a4\u30f3\u30bf\u30fc\u30cd\u30f3\u30b7\u30e7\u30f3",
+    "assistant": "Offline mode: try 'open <app>', 'play <song>', 'pause/resume/next', 'volume 30', 'search <query>', 'time', 'notes', or 'timer'."
+  },
+  {
+    "ts": 1772302889,
+    "user": "Javis",
+    "assistant": "Offline mode: try 'open <app>', 'play <song>', 'pause/resume/next', 'volume 30', 'search <query>', 'time', 'notes', or 'timer'."
+  },
+  {
+    "ts": 1772302904,
+    "user": "Open Spotify",
+    "assistant": "Opening spotify."
+  },
+  {
+    "ts": 1772302989,
+    "user": "open Spotify.",
+    "assistant": "I couldn't find 'spotify.'. Try 'reindex apps' or check the app name."
+  },
+  {
+    "ts": 1772303042,
+    "user": "Re-in",
+    "assistant": "Offline mode: try 'open <app>', 'play <song>', 'pause/resume/next', 'volume 30', 'search <query>', 'time', 'notes', or 'timer'."
+  },
+  {
+    "ts": 1772303057,
+    "user": "reindex apps",
+    "assistant": "Indexed 113 apps."
+  },
+  {
+    "ts": 1772303072,
+    "user": "open spotify",
+    "assistant": "Opening spotify."
+  },
+  {
+    "ts": 1772303091,
+    "user": "Open Spotify",
+    "assistant": "Opening spotify."
+  },
+  {
+    "ts": 1772303111,
+    "user": "What is the time?",
+    "assistant": "It is 02:25 AM."
+  },
+  {
+    "ts": 1772303137,
+    "user": "Open Notepad.",
+    "assistant": "I couldn't find 'notepad.'. Try 'reindex apps' or check the app name."
+  },
+  {
+    "ts": 1772303162,
+    "user": "open notepad",
+    "assistant": "Opening notepad."
+  },
+  {
+    "ts": 1772303192,
+    "user": "On notepad, right, and low.",
+    "assistant": "Offline mode: try 'open <app>', 'play <song>', 'pause/resume/next', 'volume 30', 'search <query>', 'time', 'notes', or 'timer'."
+  },
+  {
+    "ts": 1772303991,
+    "user": "Jawis",
+    "assistant": "Offline mode: try 'open <app>', 'write in notepad: <text>', 'message <name> on WhatsApp: <text>', 'call <name> on WhatsApp', 'connect to <country> on Proton VPN', 'play <song>', 'time', 'notes', 'timer'."
+  },
+  {
+    "ts": 1772304018,
+    "user": "Connect to Kenya on Proton VPN.",
+    "assistant": "Unknown country 'kenya'. Try: US, UK, Germany, Japan, Netherlands, etc."
+  },
+  {
+    "ts": 1772304052,
+    "user": "Connect to U.S. on Viproton VPN",
+    "assistant": "Offline mode: try 'open <app>', 'write in notepad: <text>', 'message <name> on WhatsApp: <text>', 'call <name> on WhatsApp', 'connect to <country> on Proton VPN', 'play <song>', 'time', 'notes', 'timer'."
+  },
+  {
+    "ts": 1772304078,
+    "user": "Open Proton VPN and connect to U.S.",
+    "assistant": "I couldn't find 'proton vpn and connect to u.s.'. Try 'reindex apps' or check the app name."
+  },
+  {
+    "ts": 1772304112,
+    "user": "re-end exorps",
+    "assistant": "Offline mode: try 'open <app>', 'write in notepad: <text>', 'message <name> on WhatsApp: <text>', 'call <name> on WhatsApp', 'connect to <country> on Proton VPN', 'play <song>', 'time', 'notes', 'timer'."
+  },
+  {
+    "ts": 1772304117,
+    "user": "reindex apps",
+    "assistant": "Indexed 113 apps."
+  },
+  {
+    "ts": 1772304149,
+    "user": "Connect to Roton VBA.",
+    "assistant": "Offline mode: try 'open <app>', 'write in notepad: <text>', 'message <name> on WhatsApp: <text>', 'call <name> on WhatsApp', 'connect to <country> on Proton VPN', 'play <song>', 'time', 'notes', 'timer'."
+  },
+  {
+    "ts": 1772304180,
+    "user": "Connect to an US proton VPN.",
+    "assistant": "Offline mode: try 'open <app>', 'write in notepad: <text>', 'message <name> on WhatsApp: <text>', 'call <name> on WhatsApp', 'connect to <country> on Proton VPN', 'play <song>', 'time', 'notes', 'timer'."
+  },
+  {
+    "ts": 1772304202,
+    "user": "connect to us on proton vpn",
+    "assistant": "Proton VPN app opened. Select us manually, or install Proton VPN CLI for voice control."
+  },
+  {
+    "ts": 1772304237,
+    "user": "Open NoteBug",
+    "assistant": "Opening onenote."
+  },
+  {
+    "ts": 1772304252,
+    "user": "Open notepad",
+    "assistant": "Opening notepad."
+  },
+  {
+    "ts": 1772304282,
+    "user": "Right & Low & Notepad",
+    "assistant": "Offline mode: try 'open <app>', 'write in notepad: <text>', 'message <name> on WhatsApp: <text>', 'call <name> on WhatsApp', 'connect to <country> on Proton VPN', 'play <song>', 'time', 'notes', 'timer'."
+  },
+  {
+    "ts": 1772304312,
+    "user": "Rite in notepad, elu.",
+    "assistant": "Offline mode: try 'open <app>', 'write in notepad: <text>', 'message <name> on WhatsApp: <text>', 'call <name> on WhatsApp', 'connect to <country> on Proton VPN', 'play <song>', 'time', 'notes', 'timer'."
+  },
+  {
+    "ts": 1772304331,
+    "user": "write in notepad hello",
+    "assistant": "Typed into notepad."
+  },
+  {
+    "ts": 1772304384,
+    "user": "message brian on whatsapp hello",
+    "assistant": "Opened WhatsApp, searched for 'brian' and sent the message."
+  },
+  {
+    "ts": 1772304414,
+    "user": "No.",
+    "assistant": "Offline mode: try 'open <app>', 'write in notepad: <text>', 'message <name> on WhatsApp: <text>', 'call <name> on WhatsApp', 'connect to <country> on Proton VPN', 'play <song>', 'time', 'notes', 'timer'."
+  },
+  {
+    "ts": 1772304473,
+    "user": "message Brian on whatsapp hello",
+    "assistant": "Opened WhatsApp, searched for 'brian' and sent the message."
+  },
+  {
+    "ts": 1772304515,
+    "user": "ok na toko ku, ad, store, readan, ufinya template",
+    "assistant": "Offline mode: try 'open <app>', 'write in notepad: <text>', 'message <name> on WhatsApp: <text>', 'call <name> on WhatsApp', 'connect to <country> on Proton VPN', 'play <song>', 'time', 'notes', 'timer'."
+  },
+  {
+    "ts": 1772633174,
+    "user": "Not doing words The back words back mountain. Oh, yeah, you know mountain bike",
+    "assistant": "Offline mode: try 'open <app>', 'write in notepad: <text>', 'message <name> on WhatsApp: <text>', 'call <name> on WhatsApp', 'connect to <country> on Proton VPN', 'play <song>', 'time', 'notes', 'timer'."
+  },
+  {
+    "ts": 1772633209,
+    "user": "Czekaj, no. Skop drzwi. Tak, tak.",
+    "assistant": "Offline mode: try 'open <app>', 'write in notepad: <text>', 'message <name> on WhatsApp: <text>', 'call <name> on WhatsApp', 'connect to <country> on Proton VPN', 'play <song>', 'time', 'notes', 'timer'."
+  },
+  {
+    "ts": 1772633244,
+    "user": "Is that so? No, I don't know",
+    "assistant": "Offline mode: try 'open <app>', 'write in notepad: <text>', 'message <name> on WhatsApp: <text>', 'call <name> on WhatsApp', 'connect to <country> on Proton VPN', 'play <song>', 'time', 'notes', 'timer'."
+  },
+  {
+    "ts": 1772633263,
+    "user": "stop",
+    "assistant": "Offline mode: try 'open <app>', 'write in notepad: <text>', 'message <name> on WhatsApp: <text>', 'call <name> on WhatsApp', 'connect to <country> on Proton VPN', 'play <song>', 'time', 'notes', 'timer'."
+  },
+  {
+    "ts": 1772633282,
+    "user": "end jarvis",
+    "assistant": "Offline mode: try 'open <app>', 'write in notepad: <text>', 'message <name> on WhatsApp: <text>', 'call <name> on WhatsApp', 'connect to <country> on Proton VPN', 'play <song>', 'time', 'notes', 'timer'."
+  },
+  {
+    "ts": 1772633312,
+    "user": "I'm not going to die now.",
+    "assistant": "Offline mode: try 'open <app>', 'write in notepad: <text>', 'message <name> on WhatsApp: <text>', 'call <name> on WhatsApp', 'connect to <country> on Proton VPN', 'play <song>', 'time', 'notes', 'timer'."
+  },
+  {
+    "ts": 1772633345,
+    "user": "He's not dead.",
+    "assistant": "Offline mode: try 'open <app>', 'write in notepad: <text>', 'message <name> on WhatsApp: <text>', 'call <name> on WhatsApp', 'connect to <country> on Proton VPN', 'play <song>', 'time', 'notes', 'timer'."
+  },
+  {
+    "ts": 1772635063,
+    "user": "Jawis",
+    "assistant": "Offline mode: try 'open <app>', 'write in notepad: <text>', 'message <name> on WhatsApp: <text>', 'call <name> on WhatsApp', 'connect to <country> on Proton VPN', 'play <song>', 'time', 'notes', 'timer'."
+  },
+  {
+    "ts": 1772635094,
+    "user": "Right in Notepad, Hello.",
+    "assistant": "Offline mode: try 'open <app>', 'write in notepad: <text>', 'message <name> on WhatsApp: <text>', 'call <name> on WhatsApp', 'connect to <country> on Proton VPN', 'play <song>', 'time', 'notes', 'timer'."
+  },
+  {
+    "ts": 1772635172,
+    "user": "open spotify",
+    "assistant": "Opening spotify."
+  },
+  {
+    "ts": 1772635450,
+    "user": "write in notepad hello",
+    "assistant": "Typed into notepad."
+  },
+  {
+    "ts": 1772635452,
+    "user": "open notepad",
+    "assistant": "Opening notepad."
+  }
+]

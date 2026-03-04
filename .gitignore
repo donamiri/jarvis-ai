@@ -1,0 +1,7 @@
+node_modules/
+stark-ui/node_modules/
+__pycache__/
+*.pyc
+.env
+dist/
+build/
